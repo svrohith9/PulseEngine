@@ -1,4 +1,4 @@
-```markdown
+
 # PulseEngine: A Real-Time Audio Visualizer
 
 Welcome to **PulseEngine**, an interactive web application that transforms audio from your microphone into captivating, real-time art. This project uses the Web Audio API to analyze sound frequencies and generate dynamic visuals that react to music, voice, or any other audio input.
@@ -46,6 +46,7 @@ In the HTML, add a button for your new mode inside the `mode-selector` div:
 ```html
 <button id="mode-waveform" class="mode-button text-gray-300 ...">Waveform</button>
 ```
+
 
 **Step B: Create a New Drawing Function**
 In the JavaScript section, create a new function called `drawWaveform()`. You can use the `dataArray` (which holds the audio data) to create your visuals.
